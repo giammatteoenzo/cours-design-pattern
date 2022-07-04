@@ -2,7 +2,7 @@
 
 
 
-1.	Définition : Les design patterns permettent de répondre à un problème de programmation connu avec une solution optimal.  Ils répondes a des problèmes de conception en POO. Ils résultent de bonne méthode de programmation.
+<title> 1.	Définition : Les design patterns permettent de répondre à un problème de programmation connu avec une solution optimal.  Ils répondes a des problèmes de conception en POO. Ils résultent de bonne méthode de programmation. </title>
 
 Prérequis : Base solide en POO, base en c Sharp.
 
@@ -29,9 +29,23 @@ Pattern builder:
 
 Le vendeur peut créer des bons de commandes sans connaitre la nature des sous classe de constructeurliassevehicle.
 Le vendeur va dialoguer que avec le buildeur de base qui est abstrait.
+Le client n'as pas a savoir le détail de l'implémentation du builder.
+On peux modifier le processus sans consulter le client.
+
+Pattern Factory method: 
+
+Buildeur pour préparer la construction d'un object.
+
+![](assets/methodFactory.png)
+
+Le client est une classe abstraite qui implémente une méthode abstraite.
+Cette classe Mère a deux classes enfants: clientsComptant et ClientCredit.
+Ces deux classes filles ont un comportement de création de commande différents.
+Il y a deux types de commandes: comptant et crédit qui hérite d'une classe commade (abstraite).
 
 
-II.	Pattern de structuration
+
+<title> II.	Pattern de structuration </title>
 
 
 
@@ -39,4 +53,4 @@ II.	Pattern de structuration
 
 
 
-III.	Pattern de comportement
+<title> III.	Pattern de comportement </title>
