@@ -12,11 +12,12 @@ L’Abstract factorie, permet de déresponsabilisé la classe mère. Elle permet
 
 Exemple projet catalogue véhicule : L’interface va contenir la signature des méthodes (createElectricVehicle, createThermiqueVehicle, createHybrideVehicle)
 
+![](assets/factory.png)
 
 Les classes FabriquesVehiculeÉlectricité et FabriqueVéhiculeEssence Implémente une méthode permettant de créer un scooter selon son type (Électricité ou Essence). Ces scooteurs Essence et Électrique hérite d’une classe mère Scooter. (Remarque, ce n’est jamais la classe mère qui est créer mais les classes filles qui héritent de la classe mère).
 
 
-
+produit abstrait correspond au scooter
 
 
 II.	Pattern de structuration
