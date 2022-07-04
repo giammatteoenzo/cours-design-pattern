@@ -20,6 +20,17 @@ Les classes FabriquesVehiculeÉlectricité et FabriqueVéhiculeEssence Implémen
 produit abstrait correspond au scooter
 
 
+Pattern builder: 
+
+![](assets/builder.png)
+
+
+![](assets/builder2.png)
+
+Le vendeur peut créer des bons de commandes sans connaitre la nature des sous classe de constructeurliassevehicle.
+Le vendeur va dialoguer que avec le buildeur de base qui est abstrait.
+
+
 II.	Pattern de structuration
 
 
