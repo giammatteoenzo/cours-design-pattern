@@ -44,6 +44,50 @@ Ces deux classes filles ont un comportement de création de commande différents
 Il y a deux types de commandes: comptant et crédit qui hérite d'une classe commade (abstraite).
 
 
+- Le Singleton:
+C'est un design pattern qui permet de gérer qu'une seul instance d'une classe.
+Le pattern factory est suceptible d'utiliser ce design pattern.
+
+Notre application va utiliser la classe liasse vierge qui ne possèdera qu'une seul instance.
+
+![](assets/signeton.png)
+
+Chaque classe qui utilise la liasse vierge doit avoir accès à la même instance
+On doit pouvoir surtout s'arranger pour qu'on ne puisse pas en créer des nouvelles (avec l'operateur new)
+
+Pattern Prototype:
+
+Le pattern prototype permet la création d"objects a partir d'autre objets appelés "prototypes" disposant d'une méthode clone().
+Cette méthode retourne un objet identique.
+
+![](assets/singleton2.png)
+
+- EXERCICE: TROUVER LE PATTERN PROTOTYPE.
+le pattern prototype se trouve dans la classe liasseClient:
+  foreach (Document document in documentsVierges)
+  {
+  Document copieDocument = document.duplique();
+  copieDocument.remplit(informations);
+  documents.Add(copieDocument);
+  }
+
+- EXERCICE: IMPLEMENTER LA CLASSE VENDEUR:
+
+using System.Collections.Generic;
+
+public class Vendeur
+{
+private static Vendeur _instance = null;
+
+public static Vendeur Instance()
+{
+if (_instance == null)
+_instance = new Vendeur();
+return _instance;
+}
+}
+
+
 
 <title> II.	Pattern de structuration </title>
 
