@@ -91,6 +91,27 @@ return _instance;
 
 <title> II.	Pattern de structuration </title>
 
+les patterns de structuration permettent de faciliter l'indépendance de l'interface d'un object.
+Il permet aussi de faciliter son implémentation.
+En fournissant les interfaces, ce pattern permet:
+d'encapsuler la composition des objets.
+Cela augmente le niveau d'abstraction d'un système donné un peu à la manière des patterns de créations qui encapsulent la création d'objet.
+Ces patterns mettent en avant les interfaces.
+
+L'encapsulation de la composition d'objets 
+
+
+Différence entre composition et héritage: 
+
+La composiition en UML est une intérdépendance forte entres deux objets.
+Si un objet n'existe pas alors l'autre n'as aucun sense d'exister.
+Exemple: Une maisons est composé de murs. Si la maison n'existe plus alors les murs n'ont plus raison d'exister.
+Après quelques recherche, en c sharp c'est la même chose. 
+On a deux clases, une des deux classes utilisent en propriété l'instance de l'autre classe.
+
+L'héritage est un concept complètement différent. Il y a effectivement une dépendance entres plusieurs objets mais la classe mère peut exister sans la/les classes filles.
+L'héritage permet de partager les mêmes propriétés entre la classe méres et ses enfants contrairement a la composition.
+L'héritage permet de définir des comportement différents entre les différents enfants. Il n'y a pas cette notion dans la composition.
 
 
 
