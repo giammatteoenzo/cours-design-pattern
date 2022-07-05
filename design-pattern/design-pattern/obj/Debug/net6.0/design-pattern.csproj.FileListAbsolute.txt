@@ -1,0 +1,15 @@
+/Users/enzogiammatteo/cours-design-pattern/design-pattern/design-pattern/bin/Debug/net6.0/design-pattern
+/Users/enzogiammatteo/cours-design-pattern/design-pattern/design-pattern/bin/Debug/net6.0/design-pattern.deps.json
+/Users/enzogiammatteo/cours-design-pattern/design-pattern/design-pattern/bin/Debug/net6.0/design-pattern.runtimeconfig.json
+/Users/enzogiammatteo/cours-design-pattern/design-pattern/design-pattern/bin/Debug/net6.0/design-pattern.dll
+/Users/enzogiammatteo/cours-design-pattern/design-pattern/design-pattern/bin/Debug/net6.0/design-pattern.pdb
+/Users/enzogiammatteo/cours-design-pattern/design-pattern/design-pattern/obj/Debug/net6.0/design-pattern.csproj.AssemblyReference.cache
+/Users/enzogiammatteo/cours-design-pattern/design-pattern/design-pattern/obj/Debug/net6.0/design-pattern.GeneratedMSBuildEditorConfig.editorconfig
+/Users/enzogiammatteo/cours-design-pattern/design-pattern/design-pattern/obj/Debug/net6.0/design-pattern.AssemblyInfoInputs.cache
+/Users/enzogiammatteo/cours-design-pattern/design-pattern/design-pattern/obj/Debug/net6.0/design-pattern.AssemblyInfo.cs
+/Users/enzogiammatteo/cours-design-pattern/design-pattern/design-pattern/obj/Debug/net6.0/design-pattern.csproj.CoreCompileInputs.cache
+/Users/enzogiammatteo/cours-design-pattern/design-pattern/design-pattern/obj/Debug/net6.0/design-pattern.dll
+/Users/enzogiammatteo/cours-design-pattern/design-pattern/design-pattern/obj/Debug/net6.0/refint/design-pattern.dll
+/Users/enzogiammatteo/cours-design-pattern/design-pattern/design-pattern/obj/Debug/net6.0/design-pattern.pdb
+/Users/enzogiammatteo/cours-design-pattern/design-pattern/design-pattern/obj/Debug/net6.0/design-pattern.genruntimeconfig.cache
+/Users/enzogiammatteo/cours-design-pattern/design-pattern/design-pattern/obj/Debug/net6.0/ref/design-pattern.dll
