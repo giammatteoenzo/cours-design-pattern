@@ -114,6 +114,49 @@ L'héritage permet de partager les mêmes propriétés entre la classe méres et
 L'héritage permet de définir des comportement différents entre les différents enfants. Il n'y a pas cette notion dans la composition.
 
 
+Le pattern ADAPTER:
+
+L'objectif de ce pattern est de convertir l'interface d'une classe données
+en une interface attendue par des clients afin qu'ils puissent travailler ensemble.
+En résumé, il permet de donner à une classe existante une nouvelle interface
+pour répondre aux besoin d'un client.
+
+![](assets/adapter.png)
+
+
+Pattern bridge
+Il est utilisé pour séparer le comportement de l'implementation de l'interface et de l'implémentation de l'objet.
+On s'intéresse au demande d'immatriculation des véhicules.
+
+Le formulaire de demande d'immatriculation possède deux implémentation différentes.
+
+FormulaireImmat
+
+FormulaireImmatHTML
+FormulaireImmatAPP
+
+Au départ le système a été conçu pour la france uniquement.
+Ensuite on a du crée une sous classe FormulaireImmatCH
+elle aussi abstraite pour avoir également deux sous-classes Concrète qui sont FormulaireImmatHTML et formulaireImmatApp dédié a la suisse.
+
+![](assets/bridge.png)
+
+Comme on peut le voir dans le diagramme ci dessus ce pattern enlève une dépendance forte entre les formulaires d'immatriculation par pays et le type de formulaire.
+On ajoute en effet pour ça une abstraction qui rend invisible pour le comportement pour l'implementation.
+
+
+
+le composite pattern
+
+Il offre un cadre de conception d'une composition d'objet dont on ne connait pas la profondeur.
+on peut utiliser un arbre en tant qu'analogue.
+Les clients interagissent avec les objets sans connaitre la structure de l'arbre.
+
+
+Le pattern decorateur
+
+Ce pattern permet d'ajouter DYNAMIQUEMENT des fonctionnalités SUPPLEMENTAIRE a une objet sans modifier l'interface de l'objet.
+Il s'agit d'une alternative à la création d'une sous classe qui permettrait d'enrichir l'objet.
 
 
 
