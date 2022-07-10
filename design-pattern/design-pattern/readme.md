@@ -162,3 +162,24 @@ Il s'agit d'une alternative à la création d'une sous classe qui permettrait d'
 
 
 <title> III.	Pattern de comportement </title>
+
+Les patterns de comportement distribuent des algorithmes/traitements entre les objets.
+Ils organisent les interactions en renseignant le "flux de controle" et de traitement au sein d'un system d'objets.
+
+La distribution se fait soit pas héritage soit par "délégation"
+
+le pattern Chain of Responsibility:
+
+Le bus est de construire une chaine d'objets de manières a ce que si un objet de la chaine ne peut répondre
+a une enquète, il puisse la passer a un successeur et ainsi de suite jusqu'a ce que l'un des objets
+puissent y répondre.
+
+![](assets/chainOfResponsability.png)
+
+La pattern Command
+
+Le pattern transforme une requête en objet.
+Ceci falicite les opérations relatives a la requête ex:  Annulation.
+
+
+
