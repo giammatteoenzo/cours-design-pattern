@@ -1,6 +1,6 @@
 namespace Decorator;
 
-public class Planet
+public interface Planet
 {
-    
+    void rotate();
 }
